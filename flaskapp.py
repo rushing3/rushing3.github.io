@@ -25,7 +25,8 @@ def projects():
 @app.route('/about')
 @app.route('/about/<name>')
 def about(name=None):
-    return render_template('about.html', name=name)
+    return 'About Page'
+    # return render_template('about.html', name=name)
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():

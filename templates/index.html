@@ -10,8 +10,8 @@
 <meta name="robots" content="index, follow">
 
 <!-- icons -->
-<!link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
-<!link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="{{ url_for('static', filename='apple-touch-icon.png') }}">
+<link rel="shortcut icon" href="favicon.ico">
 
 <!-- Override CSS file - add your own CSS rules -->
 <link rel="stylesheet" type=text/css href="{{ url_for('static', filename='style.css') }}">
@@ -19,23 +19,22 @@
 <body>
 <div class="container">
     <div class="header">
-        <h1 class="header-heading">Sitename</h1>
+        <h1 class="header-heading">Welcome to my page!</h1>
     </div>
     <div class="nav-bar">
         <ul class="nav">
-            <li><a href="#">Nav item 1</a></li>
-            <li><a href="#">Nav item 2</a></li>
-            <li><a href="#">Nav item 3</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="#">Projects</a></li>
         </ul>
     </div>
     <div class="content">
         <div class="main">
 
-            <h1>Page title</h1>
+            <h1>Alex Rushing</h1>
             <hr>
 
             <!-- Heading levels -->
-            <h1>Heading level 1</h1>
+            <h1>Summary</h1>
             <h2>Heading level 2</h2>
             <h3>Heading level 3</h3>
             <h4>Heading level 4</h4>
@@ -52,7 +51,7 @@
             <!-- Responsive images -->
             <h3>Responsive images</h3>
             <p>For images to be responsive (so that they will rescale to suit the width of the parent, use the <code>.img-responsive</code> class.</p>
-            <p><img class="img-responsive" src="http://placehold.it/800x350" alt=""></p>
+            <p><img class="img-responsive" src="{{ url_for('static', filename='alex.jpg') }}" alt=""></p>
 
             <!-- Lists -->
             <h3>Unordered list</h3>
