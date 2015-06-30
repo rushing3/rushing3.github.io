@@ -4,11 +4,15 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return render_template('index.html')
+    return render_template('my_index.html')
 
 @app.route('/fariha')
 def fariha():
     return "Hey, Fariha! (:"
+
+@app.route('/victor')
+def victor():
+    return render_template('victor.html')
 
 @app.route('/user/<username>')
 def show_user_profile(username):
@@ -25,8 +29,7 @@ def projects():
 @app.route('/about')
 @app.route('/about/<name>')
 def about(name=None):
-    return 'About Page'
-    # return render_template('about.html', name=name)
+    return render_template('about.html', name=name)
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
