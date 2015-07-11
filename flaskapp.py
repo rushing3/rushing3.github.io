@@ -6,9 +6,13 @@ app = Flask(__name__)
 def cover():
     return render_template('cover.html')
 
-@app.route('/home')
-def hello_world():
-    return render_template('base.html')
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
 
 @app.route('/fariha')
 def fariha():
@@ -29,11 +33,6 @@ def show_post(post_id):
 @app.route('/projects/')
 def projects():
     return 'Project page'
-
-@app.route('/about')
-@app.route('/about/<name>')
-def about(name=None):
-    return render_template('about.html', name=name)
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():

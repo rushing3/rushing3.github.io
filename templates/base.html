@@ -42,9 +42,9 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><img src="{{ url_for('static', filename='alexicon.jpg') }}" width="48" height="48"></li>
@@ -60,11 +60,8 @@
         <h1>Welcome to the Site!</h1>
     </div>
 
-    <!-- Responsive images -->
-    <h3>Mt. Zugspitze</h3>
-    <p>Just me taking a selfie on the tallest mountain in Germany, the peak of the Zugspitze is 2962m above sea level.</p>
-    <p><img class="img-responsive" src="{{ url_for('static', filename='alex.jpg') }}" alt=""></p>
-
+    {% block body %}{% endblock %}
+    
 </div> <!-- /container -->
 
 </body>
