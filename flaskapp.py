@@ -6,6 +6,10 @@ app = Flask(__name__)
 def cover():
     return render_template('cover.html')
 
+@app.route('/resume')
+def resume():
+    return render_template('resume.html')
+
 @app.route('/about')
 def about():
     return render_template('about.html')
@@ -13,6 +17,10 @@ def about():
 @app.route('/contact')
 def contact():
     return render_template('contact.html')
+
+@app.route('/aroundtheworld')
+def projects():
+    return render_template('blog.html')
 
 @app.route('/fariha')
 def fariha():
@@ -29,10 +37,6 @@ def show_user_profile(username):
 @app.route('/post/<int:post_id>')
 def show_post(post_id):
     return 'Post {}'.format(post_id)
-
-@app.route('/projects/')
-def projects():
-    return 'Project page'
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
