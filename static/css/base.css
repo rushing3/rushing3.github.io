@@ -39,6 +39,12 @@ body {
     text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
+.img-responsive {
+    max-width: 500px;
+    max-height: 500px;
+    float: center;
+}
+
 /* -----------------------
  * Layout styles
  * ------------------------*/

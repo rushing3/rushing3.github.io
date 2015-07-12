@@ -155,7 +155,10 @@ a:active { color: red; }
  * Single styles
  * ------------------------*/
 
-.img-responsive { max-width: 100%; }
+.img-responsive {
+    max-width: 100%; 
+    float: center;
+}
 
 .btn
 {
