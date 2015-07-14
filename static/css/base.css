@@ -40,8 +40,8 @@ body {
 }
 
 .img-responsive {
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 300px;
+    max-height: 400px;
     float: center;
 }
 
@@ -53,7 +53,9 @@ body {
 {
     max-width: 50em;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: transparent;
+    position: relative;
+    margin-bottom: 130px;
 }
 
 .header
@@ -73,8 +75,7 @@ body {
 
 .footer
 {
-    color: #fff;
-    background: #000;
+    background-color: black;
     padding: 1em 1.25em;
 }
 
@@ -167,8 +168,7 @@ body {
  *   */
 
 .mastfoot {
-    color: #999; /* IE8 proofing */
-    color: rgba(255,255,255,.5);
+    background-color: transparent;
 }
 
 
@@ -195,6 +195,8 @@ body {
     .mastfoot,
     .cover-container {
         width: 100%; /* Must be percentage or pixels for horizontal alignment */
+        margin: 0 auto;
+        overflow: hidden;
     }
 }
 

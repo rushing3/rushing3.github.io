@@ -20,7 +20,7 @@ def contact():
 
 @app.route('/aroundtheworld')
 def projects():
-    return render_template('blog.html')
+    return render_template('aroundtheworld.html')
 
 @app.route('/fariha')
 def fariha():
