@@ -22,6 +22,10 @@ def contact():
 def projects():
     return render_template('aroundtheworld.html')
 
+@app.route('/aroundtheworld1')
+def projects1():
+    return render_template('aroundtheworld1.html')
+
 @app.route('/fariha')
 def fariha():
     return "Hey, Fariha! (:"
