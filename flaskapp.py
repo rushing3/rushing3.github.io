@@ -19,12 +19,16 @@ def contact():
     return render_template('contact.html')
 
 @app.route('/aroundtheworld')
-def projects():
+def blog():
     return render_template('aroundtheworld.html')
 
 @app.route('/aroundtheworld1')
-def projects1():
+def blog1():
     return render_template('aroundtheworld1.html')
+
+@app.route('/aroundtheworld/1')
+def post1():
+    return render_template('post1.html')
 
 @app.route('/fariha')
 def fariha():
@@ -33,23 +37,6 @@ def fariha():
 @app.route('/victor')
 def victor():
     return render_template('victor.html')
-
-@app.route('/user/<username>')
-def show_user_profile(username):
-    return 'User {}'.format(username)
-
-@app.route('/post/<int:post_id>')
-def show_post(post_id):
-    return 'Post {}'.format(post_id)
-
-@app.route('/login', methods=['GET', 'POST'])
-def login():
-    if request.method == 'POST':
-        #do login
-        pass
-    else:
-        #show login form
-        pass
 
 if __name__ == '__main__':
         app.run(debug=True)

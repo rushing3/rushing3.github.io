@@ -1,0 +1,14 @@
+{% extends "post_base.html" %}
+{% block body %}
+<div class='container'>
+    <div class='media'>
+        <div class='jumbotron'>
+            <img src="{{ url_for('static', filename='alex1.jpg') }}" width='500'>
+            <p style='text-indent:2em'> From the dense urban jungle of Kuala Lumpur to the pristine beaches of the Perhentian Islands, Malaysia is a beautiful and often underrated country. Spend the day with a traditional tribe or in a tea plantation in the Cameron Highlands or trek through the huge national parks of Gunung Mulu and Taman Negara, all the while coming across various wildlife including tigers and Orangutans. Make sure to head to Borneo and explore the jungle and dive at Spidan, one of the best dive locations in the world. Plus, there is a great Indian food and curries throughout the country. Malaysia is a unique travel experience that is much different from its neighbors.</p>
+        </div>
+    </div>
+    <ul class="pager">
+        <li class="previous"><a href="/aroundtheworld"><span aria-hidden="true">&larr;</span> Back</a></li>
+    </ul>
+</div>
+{% endblock %}
