@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
     height: 100%;
-    background-color: rgb(35,32,31)
+    background-color: rgb(35,32,31);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
