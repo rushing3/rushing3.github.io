@@ -22,62 +22,8 @@
                                                                                 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
                                                                                     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
                                                                                         <![endif]-->
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-        <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.interactive_bg.js') }}"></script>
-  <style>
-    html {
-      height: 100%;
-    }
-    body {
-      padding: 0;
-      text-align: center;
-      font-family: 'open sans';
-      position: relative;
-      margin: 0;
-      height: 100%;
-    }
-    
-    .wrapper {
-    	height: auto !important;
-    	height: 100%;
-    	margin: 0 auto; 
-    	overflow: hidden;
-    }
-    
-    .bg {
-      position: absolute;
-      min-height: 100% !important;
-      width: 100%;
-      z-index: 0;
-    }
-    
-    .ibg-bg {
-      position: absolute;
-    }
-    
-	</style>
-	<script>
-	  $(document).ready(function(){
-       $(".bg").interactive_bg();
-       $("#btns").interactive_bg({
-         strength: 10,
-         scale: 1.15,
-         contain: false,
-         wrapContent: true
-       });
-		});
-		
-		$(window).resize(function() {
-		  $(".wrapper > .ibg-bg").css({
-		    width: $(window).outerWidth(),
-		    height: $(window).outerHeight()
-		  })
-		})
-		
-	</script>
     </head>
     <body>
-        <div class='wrapper bg' data-ibg-bg="{{ url_for('static', filename='Earth.png') }}"></div>
         <div class="site-wrapper">
             <div class='cover-container'>
                 <div class='container'>
