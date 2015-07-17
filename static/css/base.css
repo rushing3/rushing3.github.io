@@ -191,11 +191,13 @@ body {
         width: 100%; /* Must be percentage or pixels for horizontal alignment */
         margin: 0 auto;
         overflow: hidden;
+        position: relative;
     }
     .mastfoot {
         width: 100%; /* Must be percentage or pixels for horizontal alignment */
         margin: 0 auto;
         overflow: hidden;
+        position: fixed;
     }
 }
 
