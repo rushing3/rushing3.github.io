@@ -184,6 +184,7 @@ body {
     .mastfoot {
         position: fixed;
         bottom: 0;
+        background-color: rgb(35,31,32);
     }
     /* Start the vertical centering */
     .site-wrapper-inner {
