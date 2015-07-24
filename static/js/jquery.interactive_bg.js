@@ -16,7 +16,7 @@
 !function($){
   
   var defaults = {
-    strength: 25,
+    strength: 15,
     scale: 1.05,
     animationSpeed: "100ms",
     contain: true,
