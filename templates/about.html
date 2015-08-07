@@ -5,8 +5,13 @@
     <h1>About</h1>
     <hr>
 
-    <p>My name is Alex and I like computers and travelling.</p>
-    <p align="center"><img class="img-responsive" src="{{ url_for('static', filename='alex1.jpg') }}" alt=""></p>
-
+    <div class='jumbotron'>
+        <img src="{{ url_for('static', filename='ice.jpg') }}" alt="a picture of me" width='500'>
+        <hr>
+        <p style='text-indent:2em'>My name is Alex, I'm a computer science student, food junkie, an avid traveller, and a lover of the finer things. 
+        I started this website as a simple side project to learn some new skils and to share some thoughts and adventures. 
+        If you have any suggestions, comments, or the like, you are more than welcome to email me. 
+        I hope that this site and blog is entertaining if not useful.</p>
+    </div>
 </div>
 {% endblock %}

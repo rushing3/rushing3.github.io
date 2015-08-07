@@ -18,7 +18,7 @@
  sub,sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline}
  sup{top:-.5em}
  sub{bottom:-.25em}
- img{border:0}
+ img{float: center;border:0; image-orientation: from-image}
  svg:not(:root){overflow:hidden}
  figure{margin:1em 40px}
  hr{height:0;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}
