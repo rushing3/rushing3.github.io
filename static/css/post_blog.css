@@ -46,6 +46,26 @@ body {
     background-color: rgba(35,32,31,0.8)
 }
 
+div.img {
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    text-align: left;
+    background-color:rgb(45,41,42)
+}
+ div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.desc {
+    text-align: left;
+    font-weight: normal;
+    width: 200px;
+    margin: 5px;
+}
+
 /* -----------------------
  * Layout styles
  * ------------------------*/

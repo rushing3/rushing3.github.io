@@ -30,6 +30,10 @@ def blog1():
 def post1():
     return render_template('post1.html')
 
+@app.route('/big_monkey')
+def big_monkey():
+    return render_template('big_monkey.html')
+
 @app.route('/fariha')
 def fariha():
     return "Hey, Fariha! (:"
