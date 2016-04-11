@@ -24,37 +24,37 @@
                                                                                         <![endif]-->
     </head>
     <body>
-        <div class="site-wrapper">
-            <div class='cover-container'>
-                <div class='container'>
-                    {% block body %}{% endblock %}
+        <div class='container'>
+            <div class="jumbotron">
+                <div class="row">
+                    <div class="col-xs-6 col-md-3">
+                            <img src="{{ url_for('static', filename='alex256.jpg') }}" height="266">
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div class="col-xs-6 col-md-3">
+                            <a href="https://github.com/rushing3" class="thumbnail">
+                                <img src="{{ url_for('static', filename='git.png') }}" width="256">
+                            </a>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <a href="https://www.instagram.com/rush95/" class="thumbnail">
+                                <img src="{{ url_for('static', filename='insta.png') }}" width="256">
+                            </a>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <a href="https://www.linkedin.com/in/alexander-rushing-97987184" class="thumbnail">
+                                <img src="{{ url_for('static', filename='in.png') }}" width="256">
+                            </a>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <a href="#" class="thumbnail">
+                                <img src="{{ url_for('static', filename='resume.png') }}" width="256">
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="mastfoot">
-                    <nav>
-                        <ul class="nav nav-tabs nav-static">
-                            <li><a href="/"><span class='glyphicon glyphicon-home'></span></a></li>
-                            <li><a href="/resume"><span class='glyphicon glyphicon-folder-open'></span></a></li>
-                            <li><a href="/aroundtheworld"><span class='glyphicon glyphicon-globe'></span></a></li>
-                            <li><a href="/about"><span class='glyphicon glyphicon-info-sign'></span></a></li>
-                        </ul>
-                    </nav>
-                    <div class='container'>
-                        <hr>
-                    </div>
-                    <div class="inner">
-                        <p>
-                            arushing95@gmail.com|
-                            <a href="https://instagram.com/rush95/">
-                                <img src="{{ url_for('static', filename='Instagram.png') }}" height="20" width="20">
-                            </a>
-                            <a href="https://github.com/rushing3">
-                                <img src="{{ url_for('static', filename='Github.png') }}" height="20" width="20">
-                            </a>
-                            <a href="https://www.linkedin.com/profile/preview?locale=en_US&trk=prof-0-sb-preview-primary-button">
-                                <img src="{{ url_for('static', filename='LinkedIn.png') }}" height="20" width="20">
-                            </a>
-                        <p>
-                    </div>
+                <div class="inner">
+                    arushing95 at gmail.com | Updated: 4-10-2016
                 </div>
             </div>
         </div>

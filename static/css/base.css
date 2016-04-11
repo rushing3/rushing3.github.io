@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
     height: 100%;
-    background: url(Earth.png) no-repeat center center fixed;
+    background-color: rgb(88,91,86);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -51,11 +51,15 @@ body {
 
 .container
 {
-    max-width: 50em;
-    margin: 0 auto;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
     background-color: transparent;
-    position: relative;
-    display: block;
+    width: 800px;
+    height: 500px;
 }
 
 .header
@@ -181,7 +185,6 @@ body {
     .mastfoot {
         position: fixed;
         bottom: 0;
-        background-color: rgb(35,31,32);
     }
     /* Start the vertical centering */
     .site-wrapper-inner {
