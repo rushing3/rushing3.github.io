@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block body %}
+    <ul class="nav nav-pills nav-justified">
+        <li role="presentation"><a href="/">Home</a></li>
+        <li role="presentation" class="active"><a href="about">About</a></li>
+        <li role="presentation"><a href="contact">Contact</a></li>
+        <li role="presentation"><a href="resume">Resume/Sample Works</a></li>
+    </ul>
+    <hr>
+    <div class="row">
+        <img src="{{ url_for('static', filename='alex256.jpg') }}" height="266">
+    </div>
+    <br>
+    <hr>
+    <p>
+    My name is Alex and I am Computer Science senior at Georgia Tech.
+    In my free time I enjoy attending hackathons, snowboarding,
+    hiking, travelling to new places, and eating good food. 
+    My skills include full-stack development, my preferred stack is Python,
+    Flask web-framework, and a MongoDB backend.
+    </p>
+{% endblock %}
