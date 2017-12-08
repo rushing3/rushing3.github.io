@@ -32,7 +32,7 @@ body {
 
 /* Align Text */
 .text-vertical-center {
-    display: table-cell;
+    display: table-footer-group;
     text-align: center;
     vertical-align: bottom;
     color: white;
