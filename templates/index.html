@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="../../favicon.ico">
+
+        <title>Alex Rushing - Website</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="{{ url_for('static', filename='css/base.css') }}" rel="stylesheet">
+    </head>
+    <body>
+        <div class='container'>
+            <div class="jumbotron">
+                <ul class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="/">Home</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li><a href="resume">Resume/Sample Works</a></li>
+                </ul>
+                <br>
+                <div class="row">
+                    <div class="col-xs-6">
+                            <img src="{{ url_for('static', filename='alex256.jpg') }}" height="266">
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="col-xs-6">
+                            <a href="https://github.com/rushing3" class="thumbnail">
+                                <img src="{{ url_for('static', filename='git.png') }}" width="256">
+                            </a>
+                        </div>
+                        <div class="col-xs-6">
+                            <a href="https://www.instagram.com/rush95/" class="thumbnail">
+                                <img src="{{ url_for('static', filename='insta.png') }}" width="256">
+                            </a>
+                        </div>
+                        <div class="col-xs-6">
+                            <a href="https://www.linkedin.com/in/alexander-rushing-97987184" class="thumbnail">
+                                <img src="{{ url_for('static', filename='in.png') }}" width="256">
+                            </a>
+                        </div>
+                        <div class="col-xs-6">
+                            <a href="/resume" class="thumbnail">
+                                <img src="{{ url_for('static', filename='resume.png') }}" width="256">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <p>
+                Hey there, my name is Alex and welcome to my site.
+                I'm currently a Computer Science student at Georgia Tech, and I will be
+                interning as a Software Development Engineer for Amazon this Summer in Seattle.
+                In my free time I enjoy attending hackathons, snowboarding,
+                hiking, travelling to new places, and eating good food.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
+
