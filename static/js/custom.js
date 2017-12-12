@@ -23,6 +23,7 @@
 
 })(jQuery);
 
+// Make header menu dark when scrolling past the landing image
 $(document).ready(function(){
     var scroll_pos = 0;
     $(document).scroll(function() {
