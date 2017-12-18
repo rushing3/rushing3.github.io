@@ -5,6 +5,10 @@ body {
     font-family: 'Amatic SC', sans-serif;
 }
 
+.jumbotron p {
+    font-size: 14px;
+}
+
 .title {
     display: table-cell;
     position: fixed;
