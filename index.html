@@ -19,6 +19,8 @@
 
         <!-- Custom -->
         <link href="static/css/base.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
     </head>
     <body>
 
@@ -44,6 +46,9 @@
                 </a>
                 <a class="btn btn-menu btn-lg js-scroll-trigger" href="#resume">
                     Resume
+                </a>
+                <a class="btn btn-menu btn-lg js-scroll-trigger" href="#travels">
+                    Travels
                 </a>
                 <a class="btn btn-menu btn-lg js-scroll-trigger" href="#contact">
                     Contact
@@ -258,6 +263,18 @@
             </div>
         </div>
 
+        <div id="travels">
+            <!-- Travels -->
+            <div class="container ">
+
+                <div class="filler"></div>
+
+                <div class="jumbotron">
+                    <div id="map" style="height: 600px; width: 100%; border: 1px solid #777; z-index: 0;">
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Footer -->
         <div class="container">
@@ -274,6 +291,11 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="static/js/jquery.easing.min.js"></script>
         <script src="static/js/custom.js"></script>
+        <script src="http://d3js.org/d3.v4.min.js"></script>
+        <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+        <script src="./L.D3SvgOverlay.min.js"></script>
+        <script src="./d3-tip.js"></script>
+        <script src="./main.js"></script>
     </body>
 </html>
 

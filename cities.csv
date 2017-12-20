@@ -1,0 +1,78 @@
+place,name,lng,lat
+city,Pensacola,-87.2169,30.4213
+city,New Orleans,-90.0715,29.9511
+city,New York,-74.0060,40.7128
+city,Philadelphia,-75.1652,39.9526
+city,Orlando,-81.3792,28.5383
+city,Tampa,-82.4572,27.9506
+city,Baltimore,-76.6122,39.2904
+city,Washington D.C.,-77.0369,38.9072
+city,Nottingham,-1.1581,52.9548
+city,Boston UK,-0.0266,52.9789
+city,Naples,14.2681,40.8518
+city,Rome,12.4964,41.9028
+city,Vatican City,12.4534,41.9029
+city,Salerno,14.7681,40.6824
+city,Florence,11.2558,43.7696
+city,Garmisch-Partenkirchen,11.0955,47.4917
+city,Zurich,8.5417,47.3769
+city,London,-0.076132,51.508530
+city,Milan,9.191383,45.464211
+city,Rimini,12.5695,44.0678
+city,Dusseldorf,6.7735,51.2277
+city,Cologne,6.9603,50.9375
+city,Prague,14.4378,50.0755
+city,Munich,11.5820,48.1351
+city,Paris,2.3522,48.8566
+city,Atlanta,-84.3880,33.7490
+city,Charleston,-79.9311,32.7765
+city,Columbia,-81.0348,34.0007
+city,Montreal,-73.5673,45.5017
+city,Berlin,13.4050,52.5200
+city,Malta,14.3754,35.9375
+city,Innsbruck,11.4041,47.2692
+city,Singapore,103.8198,1.3521
+city,Bangkok,100.5018,13.7563
+city,Tokyo,139.6917,35.6895
+city,Yokohama,139.6380,35.4437
+city,Krabi,98.9063,8.0863
+city,Kuala Lumpur,101.6869,3.1390
+city,Siem Reap,103.8448,13.3671
+city,Hong Kong,114.1095,22.3964
+city,Macau,113.5439,22.1987
+city,Taipei,121.5654,25.0330
+city,Halifax,-63.5752,44.6488
+city,Reykjavik,-21.8174,64.1265
+city,Frankfurt,8.6821,50.1109
+city,Venice,12.3155,45.4408
+city,Udine,13.2346,46.0711
+city,Ljubljana,14.5058,46.0569
+city,Plitvice,15.5820,44.8654
+city,Rijeka,14.4422,45.3271
+city,Trieste,13.7768,45.6495
+city,Madrid,-3.7038,40.4168
+city,Toledo,-4.0273,39.8628
+city,Lisbon,-9.142685,38.736946
+city,Marrakech,-8.008889,31.63
+city,Nashville,-86.7816,36.1627
+city,Dallas,-96.7970,32.7767
+city,Jacksonville,-81.6557,30.3322
+city,Boston,-71.0589,42.3601
+city,Seattle,-122.3321,47.6062
+city,Portland,-122.6765,45.5231
+city,Vancouver,-123.1207,49.2827
+city,Eureka,-124.1637,40.8021
+city,San Francisco,-122.4194,37.7749
+city,Los Angeles,-118.2437,34.0522
+city,San Diego,-117.1611,32.7157
+city,Addis Ababa,38.763611,9.005401
+city,Osaka,135.5022,34.6937
+city,Palawan,118.7384,9.8349
+city,Perth,115.8605,-31.9505
+city,Melbourne,144.9631,-37.8136
+city,Sydney,151.2093,-33.8688
+city,Queenstown,168.6626,-45.0312
+city,Christchurch,172.6362,-43.5321
+city,Nelson,173.2840,-41.2706
+city,Wellington,174.7762,-41.2865
+city,Auckland,174.7633,-36.8485
