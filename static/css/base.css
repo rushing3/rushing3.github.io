@@ -80,11 +80,26 @@ body {
     font-weight: bold;
 }
 
+.btn-green {
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    background-color: rgba(60, 160, 60, .6);
+    float: right;
+}
+
+.btn-green:hover,
+.btn-green:focus,
+.btn-green:active {
+    background-color: rgba(60, 160, 60, .9);
+}
+
 .btn-red {
     color: #fff;
     border: none;
     border-radius: 0;
     background-color: rgba(191, 87, 68, .6);
+    float: right;
 }
 
 .btn-red:hover,
