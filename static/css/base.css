@@ -123,6 +123,21 @@ body {
     background-color: rgba(255, 255, 255, .8);
 }
 
+.btn-collapse {
+    color: #000;
+    border: none;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-collapse:hover,
+.btn-collapse:focus {
+    outline: none;
+},
+.btn-collapse:active {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
 .menu-buttons {
     display: table-header-group;
     position: fixed;

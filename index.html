@@ -224,10 +224,13 @@
                             <h1>Experience</h1>
 
                             <ul class="fa-ul">
-                                <li><i class="fa fa-caret-right"></i>
-                                    <b>Software Development Engineer - Amazon</b> - Seattle, WA - March 2018 to Present
+                                <li>
+                                    <button class="btn-collapse" type="button" data-toggle="collapse" data-target="#collapseSDE">
+                                        <i class="fa fa-caret-right"></i>
+                                        <b>Software Development Engineer - Amazon</b> - Seattle, WA - March 2018 to Present
+                                    </button>
 
-                                    <ul class="fa-ul" style="display: none;">
+                                    <ul class="collapse fa-ul" id="collapseSDE" style="display: none;">
                                         <li><i class="fa fa-angle-right"></i>
                                             Designed and implemented push and email notification system for Prime Stylist,
                                             serving over 100,000 customers and scalable to millions of customers world-wide.
@@ -249,10 +252,13 @@
 
                                     <br>
                                 </li>
-                                <li><i class="fa fa-caret-right"></i>
-                                    <b>Software Development Engineer Intern - Amazon</b> - Seattle, WA - Summer 2017
+                                <li>
+                                    <button class="btn-collapse" type="button" data-toggle="collapse" data-target="#collapseIntern">
+                                        <i class="fa fa-caret-right"></i>
+                                        <b>Software Development Engineer Intern - Amazon</b> - Seattle, WA - Summer 2017
+                                    </button>
 
-                                    <ul class="fa-ul" style="display: none;">
+                                    <ul class="collapse fa-ul" id="collapseIntern" style="display: none;">
                                         <li><i class="fa fa-angle-right"></i>
                                             Designed and implemented a full-stack search
                                             tool for internal access controls used across
@@ -275,14 +281,23 @@
 
                                     <br>
                                 </li>
-                                <li><i class="fa fa-caret-right"></i>
-                                    <b>Software Co-op - GTRI</b> - Atlanta, GA - Summer 2015-Spring 2017
+                                <li>
+                                    <button class="btn-collapse" type="button" data-toggle="collapse">
+                                        <i class="fa fa-caret-right"></i>
+                                        <b>Software Co-op - GTRI</b> - Atlanta, GA - Summer 2015-Spring 2017
+                                    </button>
                                 </li>
-                                <li><i class="fa fa-caret-right"></i>
-                                    <b>Research Assistant - Georgia Tech Ubicomp</b> - Summer 2016
+                                <li>
+                                    <button class="btn-collapse" type="button" data-toggle="collapse">
+                                        <i class="fa fa-caret-right"></i>
+                                        <b>Research Assistant - Georgia Tech Ubicomp</b> - Summer 2016
+                                    </button>
                                 </li>
-                                <li><i class="fa fa-caret-right"></i>
-                                    <b>Resident Assistant - Georgia Tech Housing</b> - Fall 2014-Summer 2015
+                                <li>
+                                    <button class="btn-collapse" type="button" data-toggle="collapse">
+                                        <i class="fa fa-caret-right"></i>
+                                        <b>Resident Assistant - Georgia Tech Housing</b> - Fall 2014-Summer 2015
+                                    </button>
                                 </li>
                             </ul>
                         </div>
@@ -321,6 +336,7 @@
         <script src="http://d3js.org/d3.v4.min.js"></script>
         <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
         <script src="static/js/main.js"></script>
+        <script src="static/js/bootstrap.min.js"></script>
     </body>
 </html>
 
